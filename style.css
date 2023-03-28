@@ -48,19 +48,30 @@ header {
   display: table;
   clear: both;
 }
-button.detail{
+
+button.detail {
   border-radius: 15px;
   background: #9b5300;
   color: aliceblue;
   width: 180px;
   height: 80px;
   font-size: 20px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
-button.buy{
+
+button.buy {
   border-radius: 15px;
   background: #9b5300;
   color: aliceblue;
   width: 150px;
   height: 80px;
   font-size: 20px;
+}
+
+.button.detail:hover {
+  opacity: 1
 }
